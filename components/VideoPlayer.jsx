@@ -79,7 +79,7 @@ const VideoPlayer = (props) => {
 
   useEffect(() => {
     const timeout = setTimeout(() => {
-      setShowCloseBtn(true);
+      //setShowCloseBtn(true);
     }, 3000);
 
     return () => clearTimeout(timeout);
@@ -87,7 +87,7 @@ const VideoPlayer = (props) => {
 
   useEffect(() => {
     const timeout = setTimeout(() => {
-      setShowSkipBtn(true);
+      //setShowSkipBtn(true);
     }, 5000);
 
     return () => clearTimeout(timeout);
