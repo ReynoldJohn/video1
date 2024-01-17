@@ -7,7 +7,7 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 
-  --color-primary: #374e58;
+  --color-primary: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,12 +19,12 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: 255, 255, 255;
 }
 
 .ima-ad-container {
   top: 0;
-  position: absolute;
+  position: left;
   display: none;
   width: 100%;
   height: 100%;
@@ -50,9 +50,9 @@ body {
 }
 .ima-seek-bar-div {
   top: 1.2em;
-  height: 0.3em;
+  height: 0.4em;
   position: absolute;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(7, 41, 235, 0.4);
 }
 .ima-progress-div {
   width: 0;
@@ -85,12 +85,12 @@ body {
   width: 3.33em;
   height: 0.667em;
   top: 1.33em;
-  background-color: #555;
+  background-color: #000000;
 }
 .ima-slider-level-div {
   width: 100%;
   height: 0.667em;
-  background-color: #ecc546;
+  background-color: #d4b550;
 }
 .ima-fullscreen-div {
   left: auto;

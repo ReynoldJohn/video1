@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Script src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></Script>
-      <body className={(inter.className, 'text-neutral-600')}>{children}</body>
+      <body className={(inter.className, 'text-neutral-800')}>{children}</body>
     </html>
   );
 }
