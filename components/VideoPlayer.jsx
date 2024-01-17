@@ -11,7 +11,7 @@ const VideoPlayer = (props) => {
   const videoRef = useRef(null);
   const playerRef = useRef(null);
   const videoWrapperRef = useRef(null);
-  const { options, onReady, ima } = props;
+  const { options, onReady } = props;
 
   
 
@@ -77,21 +77,7 @@ const VideoPlayer = (props) => {
     };
   }, []);
 
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      //setShowCloseBtn(true);
-    }, 3000);
-
-    return () => clearTimeout(timeout);
-  }, []);
-
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      //setShowSkipBtn(true);
-    }, 5000);
-
-    return () => clearTimeout(timeout);
-  }, []);
+  
 
   if (!showVideo) return null;
 
