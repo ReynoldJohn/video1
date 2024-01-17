@@ -28,7 +28,6 @@ const VideoPlayer = (props) => {
         videojs.log('player is ready');
         onReady && onReady(player);
 
-        player.ima(ima);
       }));
 
      
